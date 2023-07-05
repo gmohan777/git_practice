@@ -1,0 +1,56 @@
+h1{
+    background-color: antiquewhite;
+}
+p{
+    border:3px solid blue;
+    padding:20px
+}
+/* a{
+    color:rgb(55, 11, 112);
+} */
+a:visited{
+    color:black;
+}
+#yt1{
+    color:aqua;
+}
+a:hover, #yt1:hover{
+    color:red;
+}
+table{
+    width:20%
+}
+table,th,td{
+    color:rgb(222, 74, 24);
+    border:2px solid black;
+    border-collapse:collapse;
+    border-radius: 8px;
+}
+th{
+    font-size:larger;
+    color:rgb(8, 91, 29);
+}
+th:hover{
+    background-color:rgb(27, 28, 25);
+}
+tr:hover{
+    background-color: blueviolet;
+}
+td:hover{
+    background-color: rgb(20, 185, 235);
+}
+#tree,#flower{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+#reverse,#submit{
+    border-radius: 8px;
+    background-color: crimson;
+    color: aqua;
+}
+#reverse:hover,#submit:hover{
+    border-radius: 8px;
+    background-color:aquamarine;
+    color:brown
+}
