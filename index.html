@@ -101,17 +101,24 @@
       document.getElementById("tree").src="/images/images2/flower.jpg"; 
     }
   </script>
+  <br><br><br>
   <form>
     <label for="fname">First Name</label><br>
-    <input type="text" id="fname" name="fname"><br><br>
+    <input type="text" id="fname"value="Mohan" name="fname"><br><br>
     <label for="lname">Last Name</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
+    <input type="text" id="lname" value="Krishna" name="lname"><br><br>
     <label for="id">ID</label><br>
-    <input type="number" id="id" name="id"><br><br>
-    <input type="checkbox" id="terms">
-    
+    <input type="number" value="7" id="id" max="10" name="id"><br><br>
+    <label id="sel">Fav Cricketer</label><br>
+    <select id="sel">
+      <option value="MSD" selected>MS Dhoni</option>
+      <option value="VK">V Kohli</option>
+      <option value="Hit">Rohit</option>
+    </select><br>
+    <input type="checkbox"  id="terms" name="terms">
     <label for="terms">Terms&conditions</label><br><br>
-    <input type="button" id="submit" value="submit">
+    <input type="button" value="Submit">
+    <input type="reset">
   </form>
 </body>
 
