@@ -54,3 +54,12 @@ td:hover{
     background-color:aquamarine;
     color:brown
 }
+input:hover{
+ background-color: antiquewhite
+}
+form{
+    border: 2px solid black; 
+    text-align: center;
+    font-size: larger;
+    font-family:sans-serif;
+}
